@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://www.thejohnrussell.com/assets/img/1929137_507378143002_6354_n.jpg",
+    "link": "https://www.thejohnrussell.com/",
+    "text": "John Russell"
+  },
+  "text": {
+    "more": "Social Network Analysis of 388 Math for America teachers, who named other teachers who influenced their pedagogy.\n\nNodes are colored by subject (red \u003d mathematics, blue \u003d science, green \u003d computer science)\n\nEdges are colored by whether they were within the same school or across schools (black \u003d within school, purple \u003d across school)\n\nEdges across schools are more interesting for analysis, as they contribute to the mission of Math for America to create a community of teachers across schools within NYC.",
+    "intro": "Social Network Analysis of 388 Math for America teachers, who named other teachers who influenced their pedagogy.\n\nNodes are colored by subject (red \u003d mathematics, blue \u003d science, green \u003d computer science)\n\nEdges are colored by whether they were within the same school or across schools (black \u003d within school, purple \u003d across school)\n\nEdges across schools are more interesting for analysis, as they contribute to the mission of Math for America to create a community of teachers across schools within NYC.",
+    "title": "Survey Results Between Teachers"
+  },
+  "legend": {
+    "edgeLabel": "Named Collaborator",
+    "colorLabel": "Subject of Teacher",
+    "nodeLabel": "Teachers"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
